@@ -1,0 +1,22 @@
+{
+  "name": "connect-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.config.js --name=bin.js --output-path=./dist --entry=./bin_prebundle.js",
+    "serve": "serve -p 8990"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@connectrpc/connect-query": "1.4.1",
+    "@connectrpc/connect-web": "1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.3",
+    "webpack": "5.76.3",
+    "webpack-cli": "4.4.0"
+  }
+}
